@@ -1,0 +1,55 @@
+        #headercontainer {height: 180px;line-height: 180px;min-width: 1415px; margin: -8px;
+            background: linear-gradient(to bottom, #2E3192 0%, #1bb3ff 50%, hsl(180, 100%, 67%) 80%, white 100%);}
+        #headercontainer #navigationContainer {text-align: center;margin: 0 auto;}
+        #headercontainer a {font-size: 20px;color: beige;text-decoration: none;margin: 0 50px;transition: color 0.3s;
+            text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 1px #000, 1px 1px 1px #000;}
+        #headercontainer a:hover {color: #73d0ff;}
+        #headercontainer img {margin-bottom: 22px;vertical-align: middle;}
+        h1{font-size: 25px;}
+        h4{display: inline;}
+        #EventLine {height: 515px;min-width: 1400px;margin: 0 auto;margin: -8px;padding: 10px;position: relative;margin-top: 10px;overflow-x: hidden;}
+        #EventLine #EventPage {width: 1400px;margin: 0 auto;user-select: none;}
+        #EventLine #EventPage img {width: 1000px;height: 500px;position: absolute;transition: margin-left 0.5s;}
+        #InformLine {height: 560px;min-width: 1400px;max-width: 1800px;margin: 0 auto;position: relative;display: flex;}
+        #InformLine #NoticeLine {width: 100%;height: 520px;display: flex;padding-top: 15px;
+            border-radius: 10px;border: 2px solid gainsboro;margin-left: 210px;margin-right: 210px;}
+        #InformLine #NoticePage {width: 100%;height: 501px;padding-left: 40px;padding-right: 50px;margin: -2px;}
+        #InformLine #UserLine{display: flex; flex-direction: column;}
+        #InformLine #UserLine #LogLine {width: 300px;height: 50%;padding-top: 15px;padding-left: 30px;padding-right: 30px;margin: -2px;margin-top: -16px;
+            border-radius: 10px;border: 2px solid gainsboro;display: flex;align-items: center; flex-direction: column;}
+        #InformLine #UserLine #BlogPage {width: 300px;height:50%;padding-top: 15px;padding-left: 30px;padding-right: 30px;margin: -2px;margin-top: 1px;
+            border-radius: 10px;border: 2px solid gainsboro;display: flex;align-items: center;}
+        #InformLine #UserLine #StartImg{width: 300px;height: 70px;margin-top: 10px;margin-top: 10px;}
+        #InformLine #UserLine #StartImg:hover{width: 300px;height: 70px;}
+        #NewsLine{height: 560px;min-width: 1400px;max-width: 1800px;margin: 0 auto;position: relative;display: flex;}
+        #NewsLine #NewsPage {width: 100%; height: 520px;padding-left: 40px;padding-right: 50px;padding-top: 15px;
+            border-radius: 10px;border: 2px solid gainsboro;margin-left: 210px;margin-right: 210px;}
+        #NewsLine #NewsPage img{width: 160px;height: 90px;}
+        #NewsLine #NewsPage #NewsImg {text-align: center;}
+        #NewsLine #NewsPage #NewsText {width: 100%;padding: 10px;padding-top: 0px;}
+        #CommunityLine {height: 560px;max-width: 1800px;min-width: 1400px;margin: auto;}
+        #CommunityLine #CommunityPage {height: 520px;padding-left: 40px;padding-right: 50px;padding-top: 15px;
+            border-radius: 10px;border: 2px solid gainsboro;margin-left: 210px;margin-right: 210px;}
+        #CommunityLine #CommunityletterPage{width: 35%; height: 440px;margin-right: 50px;}
+        #CommunityLine #CommunityImgPage{width: 65%; height: 440px;display: flex;flex-direction: column; }
+        #CommunityLine #CommunityImgPage img{width: 160px;height: 90px;}
+        #GamereportLine {height: 560px;max-width: 1800px;min-width: 1400px;margin: auto;}
+        #GamereportPage{height: 560px;overflow: hidden;
+            border-radius: 10px;border: 2px solid gainsboro;margin-left: 210px;margin-right: 210px;background-color: aqua; position: relative;}
+        #TrafficlightsPick{display: flex;flex-direction: column;width: 100px;height: 560px;position: absolute;z-index: 1;}
+        #TrafficlightsPick button {width: 80px;height: 80px;border-radius: 50%;margin-left: 10px;margin-top: 30px;
+            background-color: rgb(200, 200, 200);display: flex;justify-content: center;align-items: center;border: none;user-select: none;}
+        #RedPick:hover,#RedPick:focus {
+            background: radial-gradient(circle at center,rgb(255, 142, 142) 0%,rgb(255, 84, 84) 50%,rgb(255, 35, 35) 70%, transparent 70%);}
+        #YellowPick:hover ,#YellowPick:focus {
+            background: radial-gradient(circle at center,rgb(255, 202, 77) 0%,rgb(255, 155, 43) 50%,rgb(255, 112, 0) 70%, transparent 70%);}
+        #GreenPick:hover,#GreenPick:focus {
+            background: radial-gradient(circle at center,rgb(142, 142, 255) 0%,rgb(84, 84, 255) 50%,rgb(35, 35, 255) 70%, transparent 70%);}
+        #CenterLine {height: 120px;max-width: 1800px;min-width: 1400px;margin: auto;margin-bottom: 30px;}
+        #CenterLine img {width: 100%;height: 100%;}
+        #CustomercenterLine {height: 560px;max-width: 1800px;min-width: 1400px;margin: auto;}
+        #CustomercenterPage {height: 560px;position: relative;
+            margin-left: 210px;margin-right: 210px;background-color: rgb(0, 170, 93);}
+        #FooterLine {height: 200px;min-width: 1400px;margin: auto;}
+        #FooterPage {height: 200px;padding-left: 40px;padding-right: 50px;
+            background-color: rgb(0, 98, 54)}

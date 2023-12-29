@@ -1,0 +1,74 @@
+       #headercontainer {height: 180px;line-height: 180px;min-width: 1400px; margin: -8px;
+            background: linear-gradient(to bottom, #2E3192 0%, #1bb3ff 50%, #58ffff 80%, white 100%);}
+        #headercontainer #navigationContainer {text-align: center;margin: 0 auto;}
+        #headercontainer a {font-size: 20px;color: beige;text-decoration: none;margin: 0 50px;transition: color 0.3s;
+            text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 1px #000, 1px 1px 1px #000;}
+        #headercontainer a:hover {color: #73d0ff;}
+        #headercontainer img {margin-bottom: 22px;vertical-align: middle;}
+
+
+        #CustomercenterLine {min-width: 1400px;}
+        #CustomercenterPage{max-width: 900px;
+            display: flex;flex-direction: column;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+
+        .faq {
+            margin-bottom: 20px;
+        }
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: bold;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 8px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-form input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #FooterLine {min-width: 1400px;height: 180px;
+            margin: auto;background-color: gray }
+        #FooterPage { height: 180px;}

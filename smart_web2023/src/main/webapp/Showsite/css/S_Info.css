@@ -1,0 +1,31 @@
+        #headercontainer {height: 180px;line-height: 180px;min-width: 1400px; margin: -8px;
+            background: linear-gradient(to bottom, #2E3192 0%, #1bb3ff 50%, #58ffff 80%, white 100%);}
+        #headercontainer #navigationContainer {text-align: center;margin: 0 auto;}
+        #headercontainer a {font-size: 20px;color: beige;text-decoration: none;margin: 0 50px;transition: color 0.3s;
+            text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 1px #000, 1px 1px 1px #000;}
+        #headercontainer a:hover {color: #73d0ff;}
+        #headercontainer img {margin-bottom: 22px;vertical-align: middle;}
+        #LogLine {min-width: 1400px;}
+        #LogPage{height: 750px;
+            display: flex;justify-content: center;align-items: center;flex-direction: column;}
+        #LogLine #JoinTitle{font-size: 20px; padding-bottom: 30px;}
+        #LogLine #importbox{width: 800px;margin: auto;}
+        #LogLine #importbox div{padding: 3px;padding-top: 10px;}
+        #LogLine #idline, #Pwline, #Pwlinecheck, 
+        #nameline, #phoneline, #emailline, #agreecheckline{display: flex;}
+        #LogLine input{width: 270px;height: 25px;}
+        #LogLine select{width: 100px;height: 30px;}
+        #LogLine #Info{flex: 0.5; text-align:left}
+        #LogLine #Info2{flex: 1; text-align:left; margin-top: 15px;}
+        #LogLine #inputsize{flex: 1; text-align:right}
+        #LogLine #binsize{flex: 1;font-size: 11px; text-align:left; margin-left: 8px;}
+        #LogLine #idline #id_btn{width: 80px; height: 20px;font-size: 10px;}
+        #LogLine #emailline input{width: 120px;margin-left: -5px;padding-left: 5px;}
+        #LogLine #agreecheckline #binsize{text-align:right}
+        #LogLine #agreecheckline #myCheckbox{width: 20px;  margin-top: -25px; margin-left: 120px; position: absolute;}
+        #LogLine #agreecheckline #submit_btn,#submit_btn2{font-size: 20px;width: 150px;height: 40px;
+            color: white;background-color: gray;}
+        #LogLine #agreecheckline #submit_btn:hover,#submit_btn2:hover{background-color: rgb(27, 177, 236)}
+        #FooterLine {min-width: 1400px;height: 180px;
+            margin: auto;background-color: gray }
+        #FooterPage { height: 180px;}

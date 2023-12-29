@@ -1,0 +1,410 @@
+@charset "UTF-8";
+
+  /* PC용 CSS 기준: 1536px, rem */
+
+  *{margin: 0;padding: 0;}
+  h1{font-size: 0;}
+
+  /*----- 헤더영역과 네비게이션 영역 -----*/
+  #wrap{
+     /*  width: 1300px;  */
+      width: 84.63541666666667%;/* (1300/1536)*100 */
+      height: 1550px;
+      margin: 0 auto;
+      position: relative;;
+  }
+  header{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      height: 120px;
+  }
+  #info-menu{
+      align-self: flex-end;
+      display: flex;
+      justify-content: space-around;
+      /* width: 300px; */
+      width: 23.07692307692308%;/* (300/1300)*100 */
+      height: 40px;
+      /* font: bold 17px Arial, sans-serif; */
+      font: bold 1.0625rem Arial, sans-serif;/* 17/16 */
+      position: relative;
+      top: 20px;
+  }
+  #img-sitemap{
+      /* 가변 이미지 */
+      width: 100%;
+      max-width: 100%;
+      height: 20px;
+  }
+  #logo{
+      /* width: 150px; */
+      width: 11.53846153846154%;/* (150/1300)*100 */
+      height: 60px;
+      background-image: url("img/agoda-logo.png");
+      background-repeat: no-repeat;
+      background-size: 100% 60px;
+      background-position: left center;
+      position: absolute;
+      top: 60px;     
+  }
+  #gnb{
+      display: flex;/* 플렉스 박스 적용함 */
+      justify-content: space-evenly;
+      /* width: 1100px; */
+      width: 84.61538461538462%;/* (1100/1300)*100 */
+      height: 60px;
+      /* margin-left: 150px; */
+      margin-left: 11.53846153846154%;/* (150/1300)*100 */
+      /* margin-right: 50px; */
+      margin-right: 3.846153846153846%;/* (50/1300)*100 */
+      margin-top: 20px;
+      font: 25px Arial, sans-serif;
+      line-height: 60px;
+      text-align: center;
+  }
+  ul li{
+      list-style: none;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+
+   /*----- 메인 이미지와 검색영역 -----*/
+  #main-image{
+      width: 100%;/* (1300/1300)*100 */
+      height: 300px;
+      background-image: url("img/agoda-main-image2.png");
+      background-size: 100% 300px;
+      background-repeat: no-repeat;
+      position: relative;
+      top:30px;
+  }
+  #search-caption{
+      /* width: 700px; */
+      width: 53.84615384615385%;/* (700/1300)*100 */
+      height: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* margin-left: -350px; */
+      margin-left: -26.92307692307692%;/* (350/1300)*100 */
+      margin-top: -120px;
+      /* font: bold 20px Arial, sans-serif; */
+      font: bold 1.25rem Arial, sans-serif;/* 20/16 */
+      color: white;
+      text-align: center;
+  }
+  #image-menu{
+      /* width: 750px; */
+      width: 57.69230769230769%;/* (750/1300)*100 */
+      height: 30px;
+      position: absolute;
+
+      top: 50%;
+      left: 50%;
+      /* margin-left: -375px; */
+      margin-left: -28.84615384615385%;/* (375/1300)*100 */
+      margin-top: -70px;
+      /* font: 11px Arial, sans-serif; */
+      font: 0.6875rem Arial, sans-serif;/* 11/16 */
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 1px 1px 1px 1px gray;
+      text-align: center;
+      z-index: 100;          
+  }
+  #image-menu > span{
+      /* padding: 0 7px; */
+      padding: 0 1%;/* (7/700)*100 */
+  }
+  #search-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      /* width: 850px; */
+      width: 65.38461538461538%;/*(850/1300)*100 */
+      height: 300px;
+      /* padding-left: 50px; */
+      padding-left: 3.846153846153846%;/* (50/1300)*100 */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -34.61538461538462%;/* padding-left을 더해주면 콘텐츠영역의 width값은 900px이 되므로
+      // 이 크기의 반인 450px 만큼 좌측으로 이동해야 함  (450/1300)*100 */
+      margin-top: -50px;
+      background-color: rgb(245, 243, 243);
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px 1px gray;
+  }
+  #lodging>input{
+      /* width: 80px; */
+      width: 9.411764705882353%;/* (80/850)*100 */
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid lightgray;
+      border-radius: 15px;
+      margin-top: 10px;
+      /* margin-right: 10px; */
+      margin-right: 1.176470588235294%;/* (10/850)*100 */
+      background-color: white;
+      /* font: 11px Arial, sans-serif; */
+      font: 0.6875rem Arial, sans-serif;/* 11/16 */
+      color: gray;
+      cursor: pointer;
+  }
+  #destination{
+      /* width: 790px; */
+      width: 92.94117647058824%;/* (790/850)*100 */
+      height: 50px;
+      /* padding-left: 10px; */
+      padding-left: 1.176470588235294%;/* (10/850)*100 */
+      border: 1px solid lightgray;
+      border-radius: 10px;
+  }
+  #date-men > input, #date-men > select{
+      height: 50px;
+      /* padding-left: 10px; */
+      padding-left: 1.176470588235294%;/* (10/850)*100 */
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      color: gray;
+  }
+  #date-men > input{
+      /* width: 200px; */
+      width: 23.52941176470588%;/* (200/850)*100 */
+  }
+  #date-men > select{
+      /* width: 365px; */
+      width: 42.94117647058824%;/* (365/850)*100 */
+  }
+  #other-menu{
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+       /* font: 11px Arial, sans-serif; */
+      font: 0.6875rem Arial, sans-serif;/* 11/16 */
+      color: rgb(0, 174, 255);
+  }
+  #big-sale{
+      display: inline-block;
+      /* width: 50px; */
+      width: 5.882352941176471%;/* (50/850)*100 */
+      height: 17px;
+      margin-right: 30px;
+      line-height: 17px;
+      background-color: red;
+      color: white;
+      text-align: center;
+  }
+  #search-btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* width: 400px; */
+      width: 30.76923076923077%;/* (400/1300)*100 */
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* margin-left: -200px; */
+      margin-left: -15.38461538461538%;/* (200/1300)*100 */
+      margin-top: 225px;
+      /* font: 17px Arial, sans-serif; */
+      font: 1.0625rem Arial, sans-serif;/* 17/16 */
+      color: white;
+      background-color: #1278ec;
+      border-radius: 5px;
+      text-align: center;
+      z-index: 200;
+      cursor: pointer; 
+  }
+
+   /*----- 인기숙소와 생생 이용후기 -----*/ 
+   #wrap-accommo-promo{
+      display: flex;
+      flex-direction: row;
+   }
+   #accommodation-content{
+      /* width: 700px; */
+      width: 53.84615384615385%;/* (700/1300)*100 */
+      height: 800px;
+      margin-top: 140px;
+   }
+   #populars, #reviews{
+      display: flex;
+      width: 100%;
+   }
+   #popular01, #popular02, #popular03,
+   #review01, #review02, #review03{
+      /* width: 220px; */
+      width: 31.42857142857143%;/* (220/700)*100 */
+      margin-bottom: 20px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+   }
+   #popular01, #popular02, #popular03{
+      height: 380px;
+   }
+   #review01, #review02, #review03{
+      height: 360px;
+   }
+   #popular-title{
+      /* font: bold 20px Arial, sans-serif; */
+      font: bold 1.25rem Arial, sans-serif;
+      margin-bottom: 10px;
+   }
+   #popular01{
+      background-image: url("img/popular01.png");
+      background-size: 100% 380px; 
+   }
+   #popular02{
+      background-image: url("img/popular02.png");
+      background-size: 100% 380px;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   #popular03{
+      background-image: url("img/popular03.png");
+      background-size: 100% 380px;
+   }
+   #review-title{
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+      /* font: bold 20px Arial, sans-serif;  */
+      font: bold 1.25rem Arial, sans-serif; 
+   }
+   #review01{
+      background-image: url("img/review01.png");
+      background-size: 100% 360px; 
+   }
+   #review02{
+      background-image: url("img/review02.png");
+      background-size: 100% 360px;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   #review03{
+      background-image: url("img/review03.png");
+      background-size: 100% 360px;
+   }
+
+  /*----- 숙소 프로모션과 항공권 즐길거리 프로모션 -----*/ 
+   #promotion-content{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      /* width: 550px; */
+      width: 42.30769230769231%;/* (550/1300)*100 */
+      height: 750px;
+      /* margin: 170px 20px 30px 30px;  */
+      margin: 170px 1.538461538461538% 30px 2.307692307692308%;/* (20/1300*100) (30/1300)*100 */   
+   }
+   #promotion-accommodation, #promotion-air-joy{
+      display: flex;
+      width: 100%;
+      height: 260px;
+   }
+   #promo-accommo01, #promo-accommo02,
+   #promo-air-joy01, #promo-air-joy02{
+      /* width: 260px; */
+      width: 47.27272727272727%;/* (260/550)*100 */
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+   } 
+  #promo01-title{
+      /* width: 250px; */
+      width: 45.45454545454545%;/* (250/550)*100 */
+      height: 35px;
+      line-height: 35px;
+      margin: 30px auto 20px auto;
+      border-radius: 25px;
+      text-align: center;
+      /* font: bold 23px Arial, sans-serif; */
+      font: bold 1.4375rem Arial, sans-serif;/* 23/16 */
+      background-color: #1278ec;
+      color: white;
+      text-shadow: 2px 2px 2px blue; 
+   }
+   #promo-accommo01{
+      background-image: url("img/promo-accommo01.png");
+      background-size: 100% 200px;
+      /* margin-right: 30px; */
+      margin-right: 5.454545454545455%;/* (30/550)*100 */ 
+   }
+   #promo-accommo02{
+      background-image: url("img/promo-accommo02.png");
+      background-size: 100% 200px; 
+   }
+   #promo02-title{
+      /* width: 400px; */
+      width: 72.72727272727273%;/* (400/550)*100 */
+      height: 35px;
+      line-height: 35px;
+      margin: 30px auto 20px auto;
+      border-radius: 25px;
+      text-align: center;
+      /* font: bold 23px Arial, sans-serif; */
+      font: bold 1.4375rem Arial, sans-serif;/* 23/16 */
+      background-color: #1278ec;
+      color: white;
+      text-shadow: 2px 2px 2px blue; 
+   }
+   #promo-air-joy01{
+      background-image: url("img/promo-air-joy01.png");
+      background-size: 100% 200px;
+      /* margin-right: 30px; */
+      margin-right: 5.454545454545455%;/* (30/550)*100 */ 
+   }
+   #promo-air-joy02{
+      background-image: url("img/promo-air-joy02.png");
+      background-size: 100% 200px; 
+   } 
+
+   /*----- 푸터 영역 -----*/
+  footer{
+      /* width: 1300px; */
+      width: 100%;
+      height: 90px;
+      padding-top: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(43, 43, 43);
+      text-align: center;
+      color:white;         
+   }
+  .footer-logo{
+      display: inline-block;
+      /* width: 90px; */
+      width: 6.923076923076923%;/* (90/1300)*100 */
+      height: 25px;
+      background-size: 100% 25px;
+      background-repeat: no-repeat;
+      /* margin: 10px 30px; */
+      margin: 10px 2.307692307692308%;/* (30/1300)*100 */
+  } 
+  #logos > span:nth-child(1){
+      background-image: url("img/footer-logo01.png");
+  }
+  #logos > span:nth-child(2){
+      background-image: url("img/footer-logo02.png");
+  }
+  #logos > span:nth-child(3){
+      background-image: url("img/footer-logo03.png");
+ }
+ #logos > span:nth-child(4){
+     background-image: url("img/footer-logo04.png");
+  }
+  #logos > span:nth-child(5){
+      background-image: url("img/footer-logo05.png");
+  }
+  #logos > span:nth-child(6){
+      background-image: url("img/footer-logo06.png");
+  }   

@@ -1,0 +1,55 @@
+body {text-align: center;}
+button {border: 0px solid;transition: border-color 1.3s; color: rgb(27, 177, 236);}
+button:hover,button:focus {background-color: rgb(27, 177, 236);border-color: #3498db; color: white; }
+#s4 input[type="text"], textarea {padding-top: 3px; outline: none; width: 450px;height: 20px;border: none;}
+#s4 select { outline: none;width: 100px;height: 20px;border: none;}
+#platformsonthefirstline { height: 30px;background-color: rgb(27, 177, 236);}
+#asd{margin-top: 10px;}
+#ssss {padding-left: 30px;width: 600px;height: 50px; display: flex;}
+#s4 {border: 2px solid rgb(27, 177, 236);width: 480px;height: 30px;background-color: white;border-radius: 10% 0 0 10%;}
+#s44 {padding-left: 30px;border: 2px solid rgb(27, 177, 236);width: 70px; height: 30px;border-radius: 30% 0 0 30%;position: absolute;margin-top: -2px;
+    margin-left: -10px;  background: linear-gradient(to right, white 10%, rgba(0, 0, 0, 0));border-right-color: transparent;}
+#s5 {border: 2px solid rgb(27, 177, 236);width: 70px; height: 30px;background-color: rgb(27, 177, 236);border-radius: 0 30% 30% 0;}
+#platforms{width: 1050px; margin: auto;}
+#platforms button{color: black;}
+#numbook {float: left;}
+#numbook2 {float: right;}
+#platformsonthefirstline button {width: 60px;height: 30px; background-color: rgb(27, 177, 236);border: none;}
+#platformsonthefirstline button:focus {background-color: white;border-color: #3498db; /* 테두리 색 */}
+#b2{float: left; margin-left: 30px; }
+#b2 button{border-radius: 30% 30% 0 0 ;}
+#b3{float: left; margin-top: 10px;margin-left: 10px;}
+#zerobox {width: 1100px;height: 81px;margin: auto;padding-top: 10px;}
+#firstbox {width: 1100px;height: 630px;margin: auto;padding-top: 10px; background-color: g;}
+#b1{display: flex;}
+#b1 img {padding-left: 130px;padding-top: 5px; float: left;height: 40px;}
+#fin {width: 1040px;height: 110px;margin: auto;}
+
+#fin1{display: flex;}
+#fin1 button{color: black;margin: 1px;font-size: 12.5px;}
+#line{border-bottom: 2px solid rgb(27, 177, 236);}
+#logmain{margin-top: 7px;}
+#logmain button{ font-weight: bold;text-decoration: underline;background-color: rgba(0, 0, 0, 0);}
+#logmain button:hover, #logmain button:focus{color: black;}
+#total{background-color: rgb(27, 177, 236);color: white;}
+#total{font-weight: bold;background-color: rgba(0, 0, 0, 0);}
+#total:hover{color: black;}
+
+/* 회원정보 */
+#importbox{width: 800px;margin: auto;}
+#idline, #pwline, #pwline2, #nameline, #phoneline, #emailline, #agreecheckline{display: flex;}
+#idsize{flex: 0.5; text-align:left}
+#idsize2{flex: 1; text-align:left; margin-top: 15px;}
+#inputsize{flex: 1; text-align:right}
+#binsize{flex: 1;font-size: 11px; text-align:left; margin-left: 8px;}
+#agreecheckline #binsize{text-align:right}
+input{width: 270px;height: 25px;}
+#fff{padding-top: 30px;padding-bottom: 30px; padding-right: 40px;}
+#importbox div{padding: 3px;padding-top: 10px;}
+#myCheckbox{width: 20px;  margin-top: -25px; margin-left: 120px; position: absolute;}
+#emailline input{width: 120px;margin-left: -5px;padding-left: 5px;}
+select{width: 100px;height: 30px;}
+#id_btn{width: 80px; height: 20px;font-size: 10px;}
+#submit_btn{font-size: 20px;width: 150px;height: 40px;color: white;background-color: gray;
+margin-right: 10px;}
+#submit_btn:hover{background-color: rgb(27, 177, 236)}

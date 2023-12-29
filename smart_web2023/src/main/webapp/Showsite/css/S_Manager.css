@@ -1,0 +1,26 @@
+        #headercontainer {height: 180px;line-height: 180px;min-width: 1400px; margin: -8px;
+            background: linear-gradient(to bottom, #2E3192 0%, #1bb3ff 50%, #58ffff 80%, white 100%);}
+        #headercontainer #navigationContainer {text-align: center;margin: 0 auto;}
+        #headercontainer a {font-size: 20px;color: beige;text-decoration: none;margin: 0 50px;transition: color 0.3s;
+            text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 1px #000, 1px 1px 1px #000;}
+        #headercontainer a:hover {color: #73d0ff;}
+        #headercontainer img {margin-bottom: 22px;vertical-align: middle;}
+        #ManagerLine {min-width: 1400px;}
+        #ManagerLine #ManagerPage{max-width: 900px;margin: 30px auto;border-radius: 8px;
+            display: flex;flex-direction: column;overflow: hidden;
+            background-color: yellowgreen;box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);}
+        #ManagerLine h1{margin: 70px auto;}
+        #NoticePage {transition: transform 0.5s ease-in-out, opacity 1s;transform-origin: 0% 0%;}
+        #EventPage {transition: transform 0.5s ease-in-out, opacity 1s;transform-origin: 100% 0%;}
+        #NewsPage {transition: transform 0.5s ease-in-out, opacity 1s;transform-origin: 0% 100%;}
+        #CommunityPage {transition: transform 0.5s ease-in-out, opacity 1s;transform-origin: 100% 100%;}
+        .Page {width: 100%; height: 800px; border-radius: 8px; border: 1px solid #ddd;margin: 18px;
+            text-align: center;position: absolute;}
+        .Page a{
+			font-size: 15px;
+			
+		}
+        #ManagerLine a{font-size: 30px;padding: 10px 20px;
+            cursor: pointer;transition: background-color 0.3s ease;}
+        #FooterLine {min-width: 1400px;height: 180px;margin: auto;background-color: gray;}
+        #FooterPage {height: 180px; text-align: center;}

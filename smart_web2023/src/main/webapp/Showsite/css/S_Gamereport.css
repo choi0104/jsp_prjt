@@ -1,0 +1,24 @@
+        #headercontainer {height: 180px;line-height: 180px;min-width: 1400px; margin: -8px;
+            background: linear-gradient(to bottom, #2E3192 0%, #1bb3ff 50%, #58ffff 80%, white 100%);}
+        #headercontainer #navigationContainer {text-align: center;margin: 0 auto;}
+        #headercontainer a {font-size: 20px;color: beige;text-decoration: none;margin: 0 50px;transition: color 0.3s;
+            text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 1px #000, 1px 1px 1px #000;}
+        #headercontainer a:hover {color: #73d0ff;}
+        #headercontainer img {margin-bottom: 22px;vertical-align: middle;}
+
+
+        #GamereportLine {min-width: 1400px;}
+        #GamereportPage{ max-width: 900px;
+            display: flex;flex-direction: column;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        #FooterLine {min-width: 1400px;height: 180px;
+            margin: auto;background-color: gray }
+        #FooterPage { height: 180px;}

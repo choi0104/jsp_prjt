@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Oracle Properties</comment>
+<entry key="driver">oracle.jdbc.OracleDriver</entry>
+<entry key="pw">1234</entry>
+<entry key="user">smart_dev</entry>
+<entry key="url">jdbc:oracle:thin:@IP주소:1521:xe</entry>
+</properties>

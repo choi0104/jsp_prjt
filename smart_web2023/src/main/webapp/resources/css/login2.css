@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* PC용 CSS 기준: 1536px, rem */
+
+  *{margin: 0;padding: 0;}
+  h1{font-size: 0;}
+  
+/*----- 헤더영역과 네비게이션 영역 -----*/
+  #wrap{
+     /*  width: 1300px;  */
+      width: 84.63541666666667%;/* (1300/1536)*100 */
+      height: 930px;
+      margin: 0 auto;
+      position: relative;;
+  }
+  header{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      height: 120px;
+  }
+  #info-menu{
+      align-self: flex-end;
+      display: flex;
+      justify-content: space-around;
+      /* width: 300px; */
+      width: 15.38461538461538%;/* (200/1300)*100 */
+      height: 40px;
+      /* font: bold 17px Arial, sans-serif; */
+      font: bold 1.0625rem Arial, sans-serif;/* 17/16 */
+      position: relative;
+      top: 20px;
+  }
+  #img-sitemap, #img-home{
+      /* 가변 이미지 */
+      width: 100%;
+      max-width: 100%;
+      height: 20px;
+  }
+
+  ul li{
+      list-style: none;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  
+/* 로그인 영역 */  
+#container{
+    width: 100%;
+}
+#logo{
+    width: 11.15384615384615%;/* (145/1300)*100 */
+    height: 70px;
+    margin: 30px auto 20px auto;
+    background-image: url('img/agoda-logo.png');
+    background-size: 100% 70px;
+    background-repeat: no-repeat;
+}
+table{
+    width: 23.07692307692308%;/* (300/1300)*100 */
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font: 1rem Arial, sans-serif;
+    border-color: rgb(199, 198, 198);
+    border-style: solid;
+    border-width: 1px;
+    outline-color: rgb(5, 198, 101);
+    outline-width: 1px;
+}
+#login_btn{
+    width: 105%;
+    margin-top: 20px;
+    font: bold 1.25rem Arial, sans-serif;
+    background-color: rgb(5, 198, 101);
+    color: white;
+    cursor: pointer;
+}
+/*----- 푸터 영역 -----*/
+  footer{
+      /* width: 1300px; */
+      width: 100%;
+      height: 90px;
+      padding-top: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(43, 43, 43);
+      text-align: center;
+      color:white;         
+   }
+  .footer-logo{
+      display: inline-block;
+      /* width: 90px; */
+      width: 6.923076923076923%;/* (90/1300)*100 */
+      height: 25px;
+      background-size: 100% 25px;
+      background-repeat: no-repeat;
+      /* margin: 10px 30px; */
+      margin: 10px 2.307692307692308%;/* (30/1300)*100 */
+  } 
+  #logos > span:nth-child(1){
+      background-image: url("img/footer-logo01.png");
+  }
+  #logos > span:nth-child(2){
+      background-image: url("img/footer-logo02.png");
+  }
+  #logos > span:nth-child(3){
+      background-image: url("img/footer-logo03.png");
+ }
+ #logos > span:nth-child(4){
+     background-image: url("img/footer-logo04.png");
+  }
+  #logos > span:nth-child(5){
+      background-image: url("img/footer-logo05.png");
+  }
+  #logos > span:nth-child(6){
+      background-image: url("img/footer-logo06.png");
+  }   
