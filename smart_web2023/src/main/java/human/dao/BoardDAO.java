@@ -84,7 +84,6 @@ public class BoardDAO extends DBConnection {
 		
 		return boardList;
 	}
-	
 
 	//검색관련 데이터를 적용하여 모든 게시글 조회
 	public ArrayList<BoardDTO> getBoards(SearchDTO sDto){
